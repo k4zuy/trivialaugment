@@ -10,6 +10,6 @@ sklearn
 matplotlib
 psutil
 requests
-torch
-torchvision
+torch==1.11.0+cu113 -f https://download.pytorch.org/whl/torch_stable.html
+torchvision==0.12.0+cu113 -f https://download.pytorch.org/whl/torch_stable.html
 Pillow
