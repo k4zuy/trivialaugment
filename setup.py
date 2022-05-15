@@ -13,13 +13,13 @@ from setuptools import setup, find_packages
 #    x.strip().replace("git+", "") for x in all_reqs if x.startswith("git+")
 #]
 
-REQUIRES = []
-with open('requirements.txt') as f:
-    REQUIRES = f.readlines()
+#REQUIRES = []
+#with open('requirements.txt') as f:
+  #  REQUIRES = f.readlines()
 
 setup(
   name='trivialaugment',    # This is the name of your PyPI-package.
   version='1.0',            # Update the version number for new releases
-  install_requires=REQUIRES
+ # install_requires=REQUIRES
   #dependency_links=dependency_links
 )
