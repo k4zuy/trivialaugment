@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
-from codecs import open
-from os import path
+#from codecs import open
+#from os import path
 
 here = path.abspath(path.dirname(__file__))
 
@@ -11,7 +11,7 @@ here = path.abspath(path.dirname(__file__))
 #install_requires = [x.strip() for x in all_reqs if "git+" not in x]
 #dependency_links = [
 #    x.strip().replace("git+", "") for x in all_reqs if x.startswith("git+")
-]
+#]
 
 REQUIRES = []
 with open('requirements.txt') as f:
